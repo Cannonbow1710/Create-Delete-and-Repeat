@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "create_delete_and_repeat:blocks/fluid_voider",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_delete_and_repeat:fluid_voider"
+        }
+      ]
+    }
+  ]
+}

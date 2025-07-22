@@ -1,0 +1,12 @@
+{
+  "parent": "create_delete_and_repeat:custom/fluid_voider_open",
+  "textures": {
+    "all": "create_delete_and_repeat:block/spritesheet_3",
+    "particle": "create_delete_and_repeat:block/spritesheet_1",
+    "0": "create_delete_and_repeat:block/spritesheet_1-1.png",
+    "1": "create_delete_and_repeat:block/spritesheet_3",
+    "2": "create_delete_and_repeat:block/pipes",
+    "3": "create_delete_and_repeat:block/fluidvoiderflame"
+  },
+  "render_type": "cutout"
+}

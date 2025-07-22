@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spritesheet_1-1.png",
+        "1": "spritesheet_3",
+        "2": "pipes",
+        "3": "fluidvoiderflame"
+      },
+      "name": "default"
+    }
+  }
+}

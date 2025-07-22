@@ -1,0 +1,11 @@
+{
+  "parent": "create_delete_and_repeat:custom/fluid_voider_powered",
+  "textures": {
+    "all": "create_delete_and_repeat:block/spritesheet_1-1.png",
+    "particle": "create_delete_and_repeat:block/spritesheet_1",
+    "0": "create_delete_and_repeat:block/spritesheet_1-1.png",
+    "1": "create_delete_and_repeat:block/spritesheet_2",
+    "2": "create_delete_and_repeat:block/pipes"
+  },
+  "render_type": "cutout"
+}

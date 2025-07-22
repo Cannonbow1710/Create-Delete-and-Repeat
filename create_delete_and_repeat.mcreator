@@ -1,0 +1,229 @@
+{
+  "mod_elements": [
+    {
+      "name": "FluidVoider",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_delete_and_repeat/models/item/fluid_voider.json",
+          "src/main/resources/data/create_delete_and_repeat/loot_table/blocks/fluid_voider.json",
+          "src/main/resources/assets/create_delete_and_repeat/models/block/fluid_voider.json",
+          "src/main/java/net/mcreator/createdeleteandrepeat/block/FluidVoiderBlock.java",
+          "src/main/resources/assets/create_delete_and_repeat/blockstates/fluid_voider.json"
+        ]
+      }
+    },
+    {
+      "name": "FluidVoiderOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createdeleteandrepeat/procedures/FluidVoiderOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluidVoiderBlockStates",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider_block_states",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_delete_and_repeat/models/block/fluid_voider_block_states_blockstate_0.json",
+          "src/main/resources/assets/create_delete_and_repeat/models/block/fluid_voider_block_states_blockstate_1.json"
+        ]
+      }
+    },
+    {
+      "name": "FluidVoiderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fluid_voider_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_delete_and_repeat/recipe/fluid_voider_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateDeleteAndRepeat",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_delete_and_repeat",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FluidVoiderRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createdeleteandrepeat/procedures/FluidVoiderRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluidVoiderRedstoneOff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createdeleteandrepeat/procedures/FluidVoiderRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluidVoiderBurn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid_voider_burn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/createdeleteandrepeat/procedures/FluidVoiderBurnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:FluidVoider"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.create_delete_and_repeat.fluid_voider": "Fluid Voider",
+      "item_group.create_delete_and_repeat.create_delete_and_repeat": "Create Delete And Repeat"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "create_delete_and_repeat",
+    "modName": "Create: Delete and Repeat",
+    "version": "1.0.0",
+    "author": "Andrea, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "createnew",
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.createdeleteandrepeat"
+  },
+  "mcreatorVersion": 202400452410
+}

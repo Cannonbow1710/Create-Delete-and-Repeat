@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Create Delete And Repeat",
+    "icon": {
+      "value": "CUSTOM:FluidVoider"
+    },
+    "showSearch": false
+  }
+}

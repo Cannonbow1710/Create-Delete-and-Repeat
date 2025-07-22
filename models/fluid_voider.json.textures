@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "spritesheet_1",
+        "1": "spritesheet_2",
+        "2": "pipes"
+      },
+      "name": "default"
+    }
+  }
+}

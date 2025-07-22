@@ -1,0 +1,35 @@
+{
+  "_fv": 73,
+  "_type": "blockstates",
+  "definition": {
+    "block": "FluidVoider",
+    "blockstateList": [
+      {
+        "texture": "spritesheet_3",
+        "textureTop": "minecraft:cactus_bottom",
+        "textureLeft": "minecraft:cactus_top",
+        "textureFront": "minecraft:cactus_top",
+        "textureRight": "minecraft:cactus_top",
+        "textureBack": "minecraft:cactus_top",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fluid_voider_open:default",
+        "luminance": 15,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "spritesheet_1-1.png",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fluid_voider_powered:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}
