@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minecraft:block/crafter_top_crafting",
+    "particle": "minecraft:block/crafter_top_crafting"
+  },
+  "render_type": "solid"
+}

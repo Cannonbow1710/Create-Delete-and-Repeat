@@ -1,0 +1,10 @@
+{
+  "parent": "create_delete_and_repeat:custom/industrialcauldronlava",
+  "textures": {
+    "all": "create_delete_and_repeat:block/industrial_cauldron_compost",
+    "particle": "create_delete_and_repeat:block/industrial_cauldron_compost",
+    "0": "create_delete_and_repeat:block/industrial_cauldron_compost",
+    "1": "minecraft:block/lava_still"
+  },
+  "render_type": "solid"
+}

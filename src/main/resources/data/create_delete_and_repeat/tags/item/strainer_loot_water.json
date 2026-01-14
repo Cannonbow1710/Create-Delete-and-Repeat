@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:clay_ball",
+    "minecraft:iron_nugget",
+    "minecraft:flint",
+    "minecraft:air",
+    "minecraft:gold_nugget"
+  ]
+}

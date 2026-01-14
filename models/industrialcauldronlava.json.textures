@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "industrial_cauldron_compost",
+        "1": "minecraft:lava_still"
+      },
+      "name": "default"
+    }
+  }
+}

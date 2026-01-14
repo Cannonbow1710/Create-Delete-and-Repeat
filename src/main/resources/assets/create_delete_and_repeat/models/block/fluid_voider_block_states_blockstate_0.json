@@ -6,7 +6,7 @@
     "0": "create_delete_and_repeat:block/spritesheet_1-1.png",
     "1": "create_delete_and_repeat:block/spritesheet_3",
     "2": "create_delete_and_repeat:block/pipes",
-    "3": "create_delete_and_repeat:block/fluidvoiderflame"
+    "3": "minecraft:block/campfire_fire"
   },
   "render_type": "cutout"
 }

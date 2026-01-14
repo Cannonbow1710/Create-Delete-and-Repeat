@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.createdeleteandrepeat.init.CreateDeleteAndRepeatModTabs;
 import net.mcreator.createdeleteandrepeat.init.CreateDeleteAndRepeatModItems;
 import net.mcreator.createdeleteandrepeat.init.CreateDeleteAndRepeatModBlocks;
+import net.mcreator.createdeleteandrepeat.init.CreateDeleteAndRepeatModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class CreateDeleteAndRepeatMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		CreateDeleteAndRepeatModBlocks.REGISTRY.register(modEventBus);
-
+		CreateDeleteAndRepeatModBlockEntities.REGISTRY.register(modEventBus);
 		CreateDeleteAndRepeatModItems.REGISTRY.register(modEventBus);
 
 		CreateDeleteAndRepeatModTabs.REGISTRY.register(modEventBus);

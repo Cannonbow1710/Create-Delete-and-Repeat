@@ -12,11 +12,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.createdeleteandrepeat.item.WasteItem;
 import net.mcreator.createdeleteandrepeat.CreateDeleteAndRepeatMod;
 
 public class CreateDeleteAndRepeatModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(CreateDeleteAndRepeatMod.MODID);
 	public static final DeferredItem<Item> FLUID_VOIDER = block(CreateDeleteAndRepeatModBlocks.FLUID_VOIDER);
+	public static final DeferredItem<Item> INDUSTRIAL_CAULDRON = block(CreateDeleteAndRepeatModBlocks.INDUSTRIAL_CAULDRON);
+	public static final DeferredItem<Item> STRAINER = block(CreateDeleteAndRepeatModBlocks.STRAINER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

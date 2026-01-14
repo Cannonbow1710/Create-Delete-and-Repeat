@@ -5,7 +5,7 @@
         "0": "spritesheet_1-1.png",
         "1": "spritesheet_3",
         "2": "pipes",
-        "3": "fluidvoiderflame"
+        "3": "minecraft:campfire_fire"
       },
       "name": "default"
     }

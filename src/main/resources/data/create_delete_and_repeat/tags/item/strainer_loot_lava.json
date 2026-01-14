@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_delete_and_repeat:waste",
+    "minecraft:air"
+  ]
+}

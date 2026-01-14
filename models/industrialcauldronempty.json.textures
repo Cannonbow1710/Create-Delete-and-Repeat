@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "industrial_cauldron_compost"
+      },
+      "name": "default"
+    }
+  }
+}

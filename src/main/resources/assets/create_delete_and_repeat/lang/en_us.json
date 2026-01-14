@@ -1,4 +1,8 @@
 {
+  "advancements.that_fluid_is_gone.descr": "and you can never get it back",
+  "advancements.that_fluid_is_gone.title": "That fluid\u0027s gone",
   "block.create_delete_and_repeat.fluid_voider": "Fluid Voider",
-  "item_group.create_delete_and_repeat.create_delete_and_repeat": "Create Delete And Repeat"
+  "item_group.create_delete_and_repeat.create_delete_and_repeat": "Create Delete And Repeat",
+  "block.create_delete_and_repeat.strainer": "Strainer",
+  "block.create_delete_and_repeat.industrial_cauldron": "Industrial Cauldron"
 }

@@ -19,5 +19,8 @@ public class CreateDeleteAndRepeatModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATE_DELETE_AND_REPEAT = REGISTRY.register("create_delete_and_repeat", () -> CreativeModeTab.builder()
 			.title(Component.translatable("item_group.create_delete_and_repeat.create_delete_and_repeat")).icon(() -> new ItemStack(CreateDeleteAndRepeatModBlocks.FLUID_VOIDER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(CreateDeleteAndRepeatModBlocks.FLUID_VOIDER.get().asItem());
+				tabData.accept(CreateDeleteAndRepeatModBlocks.INDUSTRIAL_CAULDRON.get().asItem());
+				tabData.accept(CreateDeleteAndRepeatModBlocks.STRAINER.get().asItem());
+				tabData.accept(CreateDeleteAndRepeatModItems.WASTE.get());
 			}).build());
 }

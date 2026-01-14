@@ -28,18 +28,6 @@ authors="Andrea, MCreator"
     side="BOTH"
 
 
-[[dependencies.create_delete_and_repeat]]
-    modId="createnew"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.create_delete_and_repeat]]
-    modId="jei"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 
 # Start of user code block dependencies configuration

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:blaze_cake_base"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_delete_and_repeat:blaze_filling"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:blaze_cake"
+    }
+  ]
+}
