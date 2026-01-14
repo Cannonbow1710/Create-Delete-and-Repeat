@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "5": "copper_casing",
+        "6": "encased_pipe",
+        "7": "hopper_inside",
+        "8": "item_drain_top",
+        "9": "strainer_side"
+      }
+    }
+  }
+}
